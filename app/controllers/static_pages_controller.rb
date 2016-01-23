@@ -10,4 +10,10 @@ class StaticPagesController < ApplicationController
 
   def archive
   end
+
+  def cn
+  end
+
+  def contact
+  end
 end
