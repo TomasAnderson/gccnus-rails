@@ -16,20 +16,19 @@ Rails.application.routes.draw do
   
   get  'about'    => 'clean_blogs#about'
   
-  # get  'archive'     => 'clean_blogs#post'
   get 'collaboration' => 'clean_blogs#collaboration'
 
   get  'post'     => 'clean_blogs#post'
 
   get  'contact'  => 'clean_blogs#contact'
 
-  get 'stylish_portfolios/index'
+  # get 'stylish_portfolios/index'
 
-  get 'creatives/index'
+  # get 'creatives/index'
 
-  get 'freelancers/index'
+  # get 'freelancers/index'
 
-  get 'grayscales/index'
+  # get 'grayscales/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

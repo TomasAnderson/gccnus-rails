@@ -12,11 +12,7 @@
  *
  *= require_tree 
  *= require_self 
- *= require bootstrap.min
  *= require font_awesome
- *= require animate.min 
- *= require clean-blog.min 
- *= require creative 
  *= require bootstrap
  */
 

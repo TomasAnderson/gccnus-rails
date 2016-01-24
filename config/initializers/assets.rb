@@ -10,11 +10,6 @@ Rails.application.config.assets.version = '1.0'
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
 
-Rails.application.config.assets.precompile += %w( animate.min.css )
-Rails.application.config.assets.precompile += %w( bootstrap.css )
-Rails.application.config.assets.precompile += %w( bootstrap.min.css )
-Rails.application.config.assets.precompile += %w( clean-blog.min.css )
-Rails.application.config.assets.precompile += %w( creative.css )
 Rails.application.config.assets.precompile += %w( stylish_portfolio/manifest.css stylish_portfolio/manifest.js )
 Rails.application.config.assets.precompile += %w( creative/manifest.js creative/manifest.css )
 Rails.application.config.assets.precompile += %w( freelancer/manifest.js freelancer/manifest.css )
