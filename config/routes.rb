@@ -1,16 +1,35 @@
 Rails.application.routes.draw do
 
-  root 'static_pages#home'
+  # root 'static_pages#home'
 
-  get 'archive' => 'static_pages#archive'
+  # get 'archive' => 'static_pages#archive'
 
-  get 'about' => 'static_pages#about'
+  # get 'about' => 'static_pages#about'
 
-  get 'collaboration' => 'static_pages#collaboration'
+  # get 'collaboration' => 'static_pages#collaboration'
 
-  get 'cn' => 'static_pages#cn'
+  # get 'cn' => 'static_pages#cn'
 
-  get 'contact' => 'static_pages#contact'
+  # get 'contact' => 'static_pages#contact'
+
+  root 'clean_blogs#index'
+  
+  get  'about'    => 'clean_blogs#about'
+  
+  # get  'archive'     => 'clean_blogs#post'
+  get 'collaboration' => 'clean_blogs#collaboration'
+
+  get  'post'     => 'clean_blogs#post'
+
+  get  'contact'  => 'clean_blogs#contact'
+
+  get 'stylish_portfolios/index'
+
+  get 'creatives/index'
+
+  get 'freelancers/index'
+
+  get 'grayscales/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

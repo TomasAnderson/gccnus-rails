@@ -1,0 +1,78 @@
+<% if current_page?(root_path) %>
+    <header class="intro-header" style="background-image: 
+    url('/assets/clean_blog/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>GCCNUS</h1>
+                    <hr class="small">
+                    <p style="text-align: justify">
+                    <span class="subheading">Global China Connection – National University of Singapore Chapter (GCC-NUS) is a non-profit student organisation for all NUS students of all nationalities looking to engage in China’s emergence as a global power. We aim to develop deep and trusting personal relationships between young leaders from China and those from the rest of the world. GCC also provides networking opportunities for academic and industrial experts to directly interact with the talented pool of NUS students.</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+<% elsif current_page?(about_path) %>
+    <header class="intro-header" style="background-image: 
+    url('/assets/clean_blog/about-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="page-heading">
+                    <h1>About GCC-NUS</h1>
+                    <hr class="small">
+                    <span class="subheading">Building relationships that will change the world.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+<% elsif current_page?(post_path) %>
+    <header class="intro-header" style="background-image: 
+    url('/assets/clean_blog/post-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="page-heading">
+                        <h1>Event Timeline</h1>
+                        <hr class="small">
+                        <span class="subheading">GCC-NUS welcomes all matriculated NUS students<br> to register as our members.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+<% elsif current_page?(contact_path) %> 
+<!--     <header class="intro-header" style="background-image: 
+    url('/assets/clean_blog/contact-bg.jpg')"> -->
+    <br><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="page-heading">
+                    <h1>Contact Me</h1>
+                    <hr class="small">
+                    <span class="subheading">Have questions? I have answers (maybe).</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+<% elsif current_page?(collaboration_path) %> 
+    <header class="intro-header" style="background-image: 
+    url('/assets/clean_blog/contact-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="page-heading">
+                    <h1>Our Advantages</h1>
+                    <hr class="small">
+                    <span class="subheading">Why collaborate with GCC-NUS?</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+<% end %>

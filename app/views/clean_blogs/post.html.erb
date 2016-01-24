@@ -1,0 +1,96 @@
+<% provide(:title, "Sample Post") %>
+
+<%= render 'shim' %>
+<%= render 'navigation' %>
+<%= render 'header' %>
+
+<!-- Post Content -->
+<div class="container">
+        <div class="row">
+            <div class="col-lg-11 col-lg-offset-2 col-md-10 col-md-offset-2">
+                <h2>Our Activities</h2><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 250px">
+                    <img src="..." alt="Sharing/Networking Sessions">
+                    <div class="caption" style="text-align: left">
+                        <p id="thumbnail-text">Regular sharing and networking sessions by NUS alumni, exclusive to GCC-NUS members, each time featuring a specific topic on China.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 250px">
+                    <img src="..." alt="Speaker/Dialogue Series">
+                    <div class="caption">
+                        <p id="thumbnail-text">Monthly or Bimonthly Speaker/ Dialogue series where industrial or academic professionals are invited to share the changing circumstances and opportunities in China.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 250px">
+                    <img src="..." alt="NUS China Summit">
+                    <div class="caption">
+                        <p id="thumbnail-text">Annual NUS China Summit, which features influential panel speakers from various industries to share their insights and experiences of China.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" style="height: 250px">
+                    <img src="..." alt="Industrial Visits and Immersion Programs">
+                    <div class="caption">
+                        <p id="thumbnail-text">Our members can personally connect with young leaders from China. NUS students may also be sent to China with GCC members worldwide for immersion programmes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><hr>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <h4>Mid November - #1 Dialogue</h4>
+                    <h2>Session: Building China</h2>
+                    <p>The first dialogue session will feature Singaporean real estate companies that have a significant presence in China. They will be invited to share their experience of successfully starting and managing real estate businesses in China. (Potential companies: Yanlord, Capitaland, etc.)</p>
+                    <hr>
+                    <h4>Mid November - #2 Dialogue</h4>
+                    <h2>Session: The New “Made in China”</h2>
+                    <p>The second dialogue session will feature influential Chinese technology firms and hardware manufacturers. Company representatives will be invited to explain how they redefine “Made in China” and to share about their operation and expansion in Singapore and in Southeast Asia. (Potential companies: Xiaomi, Huawei, etc.)</p>
+
+                    
+                </div>
+            </div>
+        </div>
+    </article><hr>
+
+    </footer> -->
+
+    <!-- internal css -->
+    <style type="text/css">
+        #thumbnail-text {
+            text-align: left;
+            font-family: Arial;
+            font-size: 14px;
+        }
+        p {
+            font-family: Arial;
+            font-size: 16px;            
+            text-align: left;
+
+            /*text-align: justify;*/
+        }
+        #list-item {
+            font-family: Arial;
+            font-size: 16px;
+            text-align: left;
+
+            /*text-align: justify;*/
+        }
+    </style>
+
+<br>
+
+<%= render 'footer' %>
